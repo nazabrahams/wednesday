@@ -100,6 +100,29 @@
         <li> i will become a better person inside and out</li>
         
     </ol>
+    <h2>Life Choices Registration Form</h2>
+    <form action="/submit_registration" method="POST">
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <label for="nationality">Nationality:</label><br>
+        <input type="text" id="nationality" name="nationality" required><br><br>
+        <label for="ethnicity">Ethnicity:</label><br>
+        <input type="text" id="ethnicity" name="ethnicity" required><br><br>
+        <label for="matric_year">Year Matriculated:</label><br>
+        <input type="number" id="matric_year" name="matric_year" min="1900" max="2100" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
     </main>
 
     
