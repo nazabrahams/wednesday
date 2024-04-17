@@ -1,0 +1,22 @@
+h1{
+   /* property:value*/
+   background-color:orangered;
+   text-align:center ;
+
+}
+p{
+    color: maroon;
+    font-family: 'Times New Roman', Times, serif;
+
+}    
+h4{
+    color:chocolate;
+}
+
+    body{
+        margin: 2%
+
+    }
+    table{
+        align-content: center;
+    }
